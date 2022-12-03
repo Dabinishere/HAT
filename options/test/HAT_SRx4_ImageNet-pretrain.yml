@@ -8,8 +8,8 @@ datasets:
    test_1:  # the test dataset
     name: image
     type: PairedImageDataset
-    dataroot_gt: ./datasets/image/GTmod4
-    dataroot_lq: ./datasets/image/LRbicx4
+    dataroot_gt: ./datasets/image
+    dataroot_lq: ./datasets/image
     io_backend:
       type: disk
 
